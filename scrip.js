@@ -8,7 +8,7 @@ async function photos () {
 const image=await fetch('https://jsonplaceholder.typicode.com/photos');
 const result=await image.json();
 
-console.log(image)
+
 
 result.forEach((element)=>{
   
