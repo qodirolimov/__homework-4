@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 1200px;
+  position: relative;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(Auto-fill, 498px);
+}
